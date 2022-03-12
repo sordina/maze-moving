@@ -1,0 +1,5 @@
+
+packages: .
+
+package moving-maze
+    ghc-options: -threaded -O2 -fno-liberate-case -funfolding-use-threshold1000 -funfolding-keeness-factor1000 -optlo-O3 "-with-rtsopts=-N -T"
